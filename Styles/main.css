@@ -1,0 +1,74 @@
+div
+{
+	border: 2px solid black;
+}
+
+.FrontPage
+{
+	position: absolute;
+	left: 200px;
+	border: 2px solid black;
+	min-width: 1150px;
+	min-height: 1000px;
+}
+
+.Logo
+{
+	/* border: 2px solid black; */
+	min-width: 20px;
+	max-width: 400px;
+	min-height: 100px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.Navigation
+{
+	/* border: 2px solid black; */
+	width: 1120px;
+	min-height: 50px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.TopContent
+{
+	/* border: 2px solid black; */
+	margin-left: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 1120px;
+	min-height: 300px;
+	display: block;
+}
+
+.BottomContent
+{
+	/* border: 2px solid black; */
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 1120px;
+	height: 250px;
+	display: block;
+}
+
+.BottomContent .Widget:nth-child(1)
+{
+	margin-left: 10px;
+}
+
+.Widget
+{
+	float: left;
+	width: 300px; 
+	height: 230px;
+	margin-right: 66px;
+}
+
+.Footer
+{
+	min-height: 150px;
+}
